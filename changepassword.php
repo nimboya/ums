@@ -1,7 +1,8 @@
 <?php
 $curuser = "";
 $qry = mysql_real_escape_string("select * from members where username = $curuser");
-$oldpassword = mysql_query();
+$runqry = mysql_query($qry);
+$user = mysql_fetch_arrya($runqry);
 $typedpassword = strip_tags($_POST['typedpassword']); 
 $newpassword = strip_tags($_POST['newpassword']);
 
