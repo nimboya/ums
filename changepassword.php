@@ -1,4 +1,5 @@
 <?php
+
 $curuser = "";
 $qry = mysql_real_escape_string("select * from members where username = '$curuser'");
 $runqry = mysql_query($qry);

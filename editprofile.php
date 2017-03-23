@@ -1,4 +1,5 @@
 <?php
+
 $curuser = "";
 $runqry = mysql_query("select id from members where username = '$curuser'");
 $u = mysql_fetch_array($runqry);
