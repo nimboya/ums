@@ -1,5 +1,5 @@
 <?php
-$pledgeby = $_POST['pledgeto'];
+$pledgeby = $_POST['pledgeto']; 
 $pledgeto = $_POST['pledgeby'];
 $fname = uniqid().".jpg";
 $trantype = strip_tags($_POST['trantype']);
